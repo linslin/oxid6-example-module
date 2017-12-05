@@ -1,0 +1,1 @@
+### OXID 6 example module

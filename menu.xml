@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+<OXMENU id="Theme">
+    <MAINMENU id="Module">
+        <SUBMENU id="Example Module" cl="linslinexamplemodulemain" />
+    </MAINMENU>
+</OXMENU>
+</OX>

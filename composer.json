@@ -1,0 +1,37 @@
+{
+    "name":        "linslin/oxid6-example-module",
+    "description": "",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "Editor"
+    ],
+    "homepage":    "https://www.linslin.org",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "linslin.org UG | Codes and freedom",
+            "email": "info@linslin.org"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "linslin/oxid6-example-module"
+        }
+    },
+    "require":     {
+        "php": ">=5.6"
+    },
+    "autoload":    {
+        "psr-4": {
+            "linslin\\oxid6ExampleModule\\": "../../../modules/linslin/oxid6-example-module"
+        }
+    }
+}
+
+
