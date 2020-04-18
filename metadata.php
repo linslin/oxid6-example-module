@@ -31,7 +31,6 @@ $aModule = array(
     'controllers'       => array(
         'linslinexamplemodulemain' => \linslin\oxid6ExampleModule\Controller\Admin\MainController::class,
     ),
-    'files'       => array(),
     'templates'   => array(
         'main.tpl' => 'linslin/oxid6-example-module/views/admin/main.tpl'
     ),
